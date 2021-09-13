@@ -20,6 +20,9 @@ public class Category {
     @NotNull
     private String categoryName;
 
+    @Column(name = "description")
+    private String description;
+
 //    @OneToMany(fetch = FetchType.LAZY, mappedBy = "category", cascade = CascadeType.ALL)
 //    private Set<Product> books = new HashSet<>();
 }
